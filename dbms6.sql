@@ -1,3 +1,12 @@
+-- Write a Stored Procedure namely proc_Grade for the categorization of student. 
+-- If marks scored by students in examination is <=1500 and marks>=990 then student will 
+-- be placed in distinction category if marks scored are between 989 and 900 category is first 
+-- class, if marks 899 and 825 category is Higher Second Class. 
+-- Stud_Marks(name, total_marks) 
+-- Result(Roll,Name, Class) 
+
+
+
 -- 1) Create tables
 CREATE TABLE Stud_Marks (
     name VARCHAR(30),
